@@ -16,6 +16,13 @@ dependency-reduced-pom.xml
 buildNumber.properties
 
 # -------------------------------
+# Maven Wrapper (如果你不用 mvnw，可忽略它)
+# -------------------------------
+/mvnw
+/mvnw.cmd
+/.mvn/
+
+# -------------------------------
 # IDE and editor files
 # -------------------------------
 
@@ -45,18 +52,13 @@ buildNumber.properties
 # OS generated files
 # -------------------------------
 
-# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
-
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Linux
 *~
 
 # -------------------------------
@@ -69,7 +71,10 @@ Desktop.ini
 *.bak
 *.old
 
+# -------------------------------
 # Gatling results (for performance tests)
+# -------------------------------
+
 results/
 gatling-results/
 
@@ -124,7 +129,6 @@ package-lock.json
 # Coverage & Reports
 # -------------------------------
 
-# JaCoCo, Surefire, Checkstyle, etc.
 jacoco.exec
 test-output/
 surefire-reports/
