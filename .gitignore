@@ -115,7 +115,7 @@ package-lock.json
 # -------------------------------
 # Backup and system files
 # -------------------------------
-
+.github
 *.orig
 *.rej
 *.bak
@@ -124,7 +124,7 @@ package-lock.json
 *.swo
 *.tmp
 *.temp
-
+.gatling
 # -------------------------------
 # Coverage & Reports
 # -------------------------------
