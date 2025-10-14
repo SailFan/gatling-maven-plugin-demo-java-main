@@ -1,0 +1,131 @@
+# -------------------------------
+# 💡 Maven Java 项目 .gitignore
+# -------------------------------
+
+# Maven target build directory
+/target/
+/out/
+
+# Maven release and backup files
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# -------------------------------
+# IDE and editor files
+# -------------------------------
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# -------------------------------
+# OS generated files
+# -------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -------------------------------
+# Logs and temporary files
+# -------------------------------
+
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Gatling results (for performance tests)
+results/
+gatling-results/
+
+# -------------------------------
+# Node.js (if used with mock API)
+# -------------------------------
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# -------------------------------
+# Environment and secrets
+# -------------------------------
+
+.env
+*.env.*
+*.key
+*.pem
+*.crt
+*.p12
+
+# -------------------------------
+# Compiled class and jar files
+# -------------------------------
+
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# -------------------------------
+# Backup and system files
+# -------------------------------
+
+*.orig
+*.rej
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# -------------------------------
+# Coverage & Reports
+# -------------------------------
+
+# JaCoCo, Surefire, Checkstyle, etc.
+jacoco.exec
+test-output/
+surefire-reports/
+checkstyle-result.xml
