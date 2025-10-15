@@ -17,6 +17,6 @@ public class AuthEndpoints {
             .asJson()
             .header("Content-Type", "application/json")
             .check(status().is(200))
-            .check(jsonPath("$.accessToken").saveAs("AccessToken"));
+            .check(jsonPath("$.received").saveAs("received"));
 
 }
