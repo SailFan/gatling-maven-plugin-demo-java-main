@@ -13,13 +13,13 @@ public class APiEndpoints {
 
 
    //获取spu列表
-   public static final HttpRequestActionBuilder spu = http("spu")
+   public static final HttpRequestActionBuilder spu = http("商品列表")
            .get("/api/skulist")
            .check(status().is(200));
 
 
 
-    public static final HttpRequestActionBuilder sku = http("sku")
+    public static final HttpRequestActionBuilder sku = http("新增购物车")
             .post("/api/addToCart")
             .body(StringBody((Session session) -> {
                 // 从 Session 中读取值（确保 Simulation 里事先 set 了这两个值）
