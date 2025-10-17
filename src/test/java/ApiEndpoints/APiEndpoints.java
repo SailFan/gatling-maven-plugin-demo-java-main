@@ -14,6 +14,7 @@ public class APiEndpoints {
 
    //获取spu列表
    public static final HttpRequestActionBuilder spu = http("商品列表")
+
            .get("/api/skulist")
            .check(status().is(200));
 
